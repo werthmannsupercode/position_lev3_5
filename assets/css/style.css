@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* HEADER STYLES */
+
+header {
+    background-image: url('https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header p:nth-of-type(1) {
+    font-size: 4rem;
+    padding: 38vh 0 0 10vw;
+}
+
+header p:nth-of-type(2) {
+    font-size: 2rem;
+    padding: 7vh 0 38vh 5vw;
+}
+
+/* NAV STYLES */
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+nav h1 {
+    display: inline-block;
+    font-size: 2rem;
+    padding: 2vh 30vw 2vh 3vw;
+}
+
+nav ul {
+    display: inline-block;
+
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding: 0 5vw;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* STYLES SECTION 1 */
+
+main section h2 {
+    text-align: center;
+    font-size: 4rem;
+    padding: 10vh 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main section div {
+    text-align: center;
+}
+
+main section div:nth-of-type(1) {
+    padding-bottom: 5vh
+}
+
+main section div img {
+    width: 27.5vw;
+    height: 32.5vh;
+}
+
+main section div img:nth-of-type(2) {
+    margin: 0 3vw 0 3vw;
+}
+
+main section h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    padding: 10vh 0;
+}
+
+main section a {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    padding-left: 15vw;
+    line-height: 2;
+    text-decoration: none;
+    color: black;
+}
+
+main section a:nth-of-type(1):after,
+main section a:nth-of-type(2):after,
+main section a:nth-of-type(3):after {
+    content: 'SOLD OUT';
+    color: red;
+    padding-left: 1vw;
+}
+
+main section a:nth-of-type(4):after {
+    content: 'ONLY 4 SPOTS AVAILABLE';
+    color: orange;
+    padding-left: 1vw;
+}
+
+main section a:nth-of-type(5):after,
+main section a:nth-of-type(6):after {
+    content: 'AVAILABLE';
+    color: green;
+    padding-left: 1vw;
+}
+
+main section a:nth-of-type(6) {
+    padding-bottom: 20vh;
+}
