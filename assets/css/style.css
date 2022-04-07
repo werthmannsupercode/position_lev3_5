@@ -101,6 +101,7 @@ main section div:nth-of-type(2) {
 main section div img {
     width: 27.5vw;
     height: 32.5vh;
+    object-fit: cover;
 }
 
 main section div img:nth-of-type(2) {
