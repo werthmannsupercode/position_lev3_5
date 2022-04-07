@@ -18,6 +18,7 @@ header {
     background-image: url('https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
 }
 
 header p {
@@ -42,12 +43,14 @@ nav {
     font-family: 'Montserrat', sans-serif;
     position: sticky;
     top: 0;
+    bottom: 0;
+    height: 8vh;
 }
 
 nav h1 {
     display: inline-block;
     font-size: 2rem;
-    padding: 2vh 30vw 2vh 3vw;
+    padding: 2vh 30vw 0 3vw;
 }
 
 nav ul {
@@ -75,7 +78,7 @@ nav ul li a:hover {
 main section h2 {
     text-align: center;
     font-size: 4rem;
-    padding: 10vh 0;
+    padding-top: 10vh;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -84,6 +87,13 @@ main section div {
 }
 
 main section div:nth-of-type(1) {
+    height: 8vh;
+    width: 8vw;
+    border-bottom: 3px solid black;
+    margin: 0 auto 2vh auto;
+}
+
+main section div:nth-of-type(2) {
     padding-bottom: 5vh
 }
 
